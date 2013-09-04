@@ -1,0 +1,17 @@
+{
+    "name": "zoopcommerce/slipstream",
+    "type": "library",
+    "description": "An alternative to the standard composer autoloader",
+    "keywords": ["composer", "php", "autoloader"],
+    "homepage": "http://github.com/zoopcommerce/slipstream",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "superdweebie@gmail.com",
+            "homepage": "http://github.com/superdweebie",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
