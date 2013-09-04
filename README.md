@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The composer autoloader is quite good, and quite fast when used with `composer.phar dump-autoload --optimize`. However, the `--optimize` option maps every single class in your dependency tree. If you are a using a framework such as zf2 or symfony, that can mean 3000+ of classes. Chances are that your is is only using a small fraction of those. Slipstram will rewrite the classmap in production to include only the classes you need, meaning faster page load times.
+The composer autoloader is quite good, and quite fast when used with `composer.phar dump-autoload --optimize`. However, the `--optimize` option maps every single class in your dependency tree. If you are a using a framework such as zf2 or symfony, that can mean 3000+ of classes. Chances are that your app is only using a small fraction of those. Slipstram will rewrite the classmap in production to include only the classes you need, meaning faster page load times.
 
 ## Installation
 
